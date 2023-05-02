@@ -33,7 +33,7 @@ final class ViewModel: ObservableObject {
     /// This project uses the user's private database.
     private lazy var database = container.privateCloudDatabase
     /// Sharing requires using a custom record zone.
-    let recordZone = CKRecordZone(zoneName: "Contacts")
+    let recordZone = CKRecordZone(zoneName: "couple")
 
     // MARK: - Init
 

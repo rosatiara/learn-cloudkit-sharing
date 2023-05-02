@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3160481C2A0151C400A978E9 /* SharingDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SharingDebug.entitlements; sourceTree = "<group>"; };
 		F415D54E260A602F002C3249 /* Sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F415D551260A602F002C3249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F415D553260A602F002C3249 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		F415D550260A602F002C3249 /* Sharing */ = {
 			isa = PBXGroup;
 			children = (
+				3160481C2A0151C400A978E9 /* SharingDebug.entitlements */,
 				F415D565260A6090002C3249 /* Models */,
 				F415D566260A6095002C3249 /* Views */,
 				F415D567260A609C002C3249 /* ViewModels */,
@@ -403,16 +405,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sharing/App/Sharing.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Sharing/SharingDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HHQRX4Z95P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sharing/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.samples.cloudkit.sharing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learning.Sharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,14 +428,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Sharing/App/Sharing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HHQRX4Z95P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sharing/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.samples.cloudkit.sharing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learning.Sharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
